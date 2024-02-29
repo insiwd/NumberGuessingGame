@@ -110,3 +110,34 @@ p {
     font-weight: bold;
 
 }
+
+/* Estilos para telas menores que 600px */
+@media screen and (max-width: 600px) {
+    main {
+        width: 80vw; /* Redimensiona a largura do conteúdo principal */
+    }
+
+    h1 {
+        font-size: 24px; /* Redimensiona o tamanho da fonte do título */
+    }
+
+    p {
+        font-size: 14px; /* Redimensiona o tamanho da fonte dos parágrafos */
+        margin-top: 10px; /* Ajusta o espaçamento superior */
+    }
+
+    #try {
+        margin-top: 30px; /* Ajusta o espaçamento superior */
+        font-size: 12px; /* Redimensiona o tamanho da fonte do input */
+    }
+
+    #guess {
+        font-size: 20px; /* Redimensiona o tamanho da fonte do palpite */
+        margin-top: 20px; /* Ajusta o espaçamento superior */
+    }
+
+    #submitBtn {
+        margin-top: 15px; /* Ajusta o espaçamento superior */
+        font-size: 14px; /* Redimensiona o tamanho da fonte do botão */
+    }
+}
